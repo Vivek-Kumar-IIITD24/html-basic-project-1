@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+        
+         <!-- FORM 1 -->
+        <h1>FORM 1</h1>
+
+        <form >
+            <fieldset>
+            <h1>Event Registration</h1>
+
+            <label for="name">Name:</label>
+            <br></br>
+            <input type="text" id="name" name="name" >
+
+            <br></br>
+
+            <label for="Emial">Email:</label>
+            <br></br>
+            <input type="text" id="Emial" name="Emial" >
+
+            <br></br>
+
+            <label for="phoneNUmber">Phone:</label>
+            <br></br>
+            <input type="tel" id="phoneNUmber" name="phoneNUmber" >
+
+            <br></br>
+
+             <label for="Occupation">Occupation</label>
+             <select name="Occupation" id="Occupation">
+                <option value="Self employed">Self employed</option>
+                <option value="Govt employe">Govt employe</option>
+                <option value="Business man">Business man</option>
+                <option value="Driver">Driver</option>
+                <option value="other">other</option>
+             </select>
+
+             <br></br>
+
+             <fieldset>
+                <legend>Topics of Interest</legend>
+        
+                <input type="checkbox" name = "checkbox1" id = "Topics">
+                <br></br>
+                <label for="Topics">HTML</label>
+                <br></br>
+                <input type="checkbox" name = "checkbox2" id = "Topics">
+                <br></br>
+                <label for="Topics">CSS</label>
+                <br></br>
+                <input type="checkbox" name = "checkbox3" id = "Topics">
+                <br></br>
+                <label for="Topics">JavaScript</label>
+                <br></br>
+            </fieldset>
+            <!-- COMMENT BOX -->
+                <br></br>
+                <label for="Comments">Comments:</label>
+                <br></br>
+                <textarea name="Comments" id="Comments" cols = "75" rows = "7"></textarea>
+                <button>Register</button>
+            
+        
+            </fieldset>
+        </form>
+
+        <!-- FORM 2 -->
+
+        <h1>FORM 2</h1>
+        <form >
+            <fieldset>
+            <h2>Job Application</h2>
+
+            <label for="Name"> Name:</label>
+            <input type="text" name ="Name" id="Name">
+                <br></br>
+            <label for="email id">Email:</label>
+            <input type="email" name = "email" id="email id">
+                <br></br>
+            <label for="phone No">Phone:</label>
+            <input type="tel" name = "phone No" id = "phone No">
+            <br></br>
+            <label for="file">Resume:</label><br></br>
+            <input type="file" name = "file" id = "file">
+                <br></br>
+            <label for="experience years">Experience (year):</label>
+            <input type="number" name = "experience years" id = "experience years" min = "0" max = "50">
+                <br></br>
+            <fieldset>
+                <legend>Skills:</legend>
+
+                <input type="checkbox" name = "checkbox1" id = checkbox1><br></br>
+                <label for="checkbox1">HTML</label>
+
+                <br></br>
+
+                <input type="checkbox" name = "checkbox1" id = checkbox2><br></br>
+                <label for="checkbox1">CSS</label>
+
+                <br></br>
+
+                <input type="checkbox" name = "checkbox3" id = checkbox3><br></br>
+                <label for="checkbox3">JavaScript</label>
+                
+                <br></br>
+
+            </fieldset>
+
+            <br></br>
+
+            
+            <label for="highest education">Highest Education</label>
+                <select name="high school" id="highest education">
+                    <option value="High School">High School</option>
+                    <option value="High School">Primary School</option>
+                    <option value="High School">Under Graduat</option>
+                    <option value="High School">Post Graduat</option>
+                </select>
+
+            <br></br>
+            <fieldset>
+            <legend for="availabilty">Availability:</legend>
+            
+            <input type="radio" name = "radio" id = "radio1" value = "Full Time"><br></br>
+            <label for="radio1">Full-time </label>
+                <br></br>
+            <input type="radio" name = "radio" id = "radio2" value = "Part Time"><br></br>
+            <label for="radio2">Part-time </label>
+            </fieldset>
+
+            <br></br>
+
+            <label for="Comments">Additional Comments:</label>
+                <br></br>
+                <textarea name="Comments" id="Comments" cols = "75" rows = "7"></textarea>
+                <button>Submit Application</button>
+                
+            </fieldset>
+
+        </form>
+        
+        <!-- FORM 3 -->
+
+        <form>
+            <h1>FORM 3</h1>
+
+            <fieldset>
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <label for="name">Name</label>
+                <input type="text" name = "name" id = "name">
+
+                <label for="email">Email</label>
+                <input type="email" name = "email" id = "email">
+
+                <label for="phone">Phone</label>
+                <input type="tel" name = "phone" id = "phone">
+
+                <label for="date">Date of Birth</label>
+                <input type="date" name = "name" id = "date">
+
+
+                <label for="gender">Gender</label>
+                
+                <input type="radio" name = "radio" id = "gender">
+                <label for="gender">Male</label>
+
+                
+                <input type="radio" name = "radio" id = "gender">
+                <label for="gender">Female</label>
+
+                <label for="country">Country</label>
+                <select name="country" id="country">
+                    <option value="united states">United States</option>
+                    <option value="india">India</option>
+                    <option value="united kingdom">United Kingdom</option>
+                    <option value="united Arab">United Arab</option>
+                </select>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Address Street</legend>
+
+                <input type="text" name = "city" id = "city">
+                <label for="city">City</label>
+                
+                <input type="text" name = "state" id = "state">
+                <label for="state">State</label>
+
+                <input type="text" name = "zip code" id = "zip code">
+                <label for="zip code">Zip code</label>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Other Information</legend>
+
+                <label for="comments">Comments</label>
+                <textarea name="comments" id="comments" name = "comments" placeholder="write here " cols = "75" rows = "7"></textarea>
+                <label for="com">I agree to the terms of service</label>
+                <input type="checkbox" name = "com" id = "com">
+                <br></br>
+                
+            </fieldset>
+            <button>Submit</button>
+
+
+            </fieldset>
+        </form>
+    </body>
+</html>
