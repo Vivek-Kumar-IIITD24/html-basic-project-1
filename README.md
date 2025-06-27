@@ -1,2 +1,2 @@
-# html-basic-project-1
+# html-basic-projects
 this is my first project of html
